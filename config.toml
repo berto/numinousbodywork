@@ -1,15 +1,15 @@
-baseurl = "http://localhost:1313/"
+baseurl = "http://numinousbodywork.com"
 languageCode = "en-us"
 title = "Numinous Bodywork"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = ""
 googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+    description          = ""
     # This will appear on the top left of the navigation bar
     navbarTitle          = "Numinous Bodywork"
     # Social media buttons that appear on the sidebar
