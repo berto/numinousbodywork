@@ -58,6 +58,10 @@
 
 /* Grid */
 
+   .menu {
+     display: none;
+   }
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -745,6 +749,10 @@
 	}
 
 	@media screen and (max-width: 980px) {
+    .menu {
+      display: inline-block;
+		  padding-left: 0;
+    }
 
 		.row > * {
 			padding: 0 0 0 1em;
@@ -2981,7 +2989,7 @@
 			padding-left: 0;
 		}
 
-			#header ul li {
+			#header ul li:not(.menu) {
 				display: inline-block;
 				padding-left: 0;
 			}

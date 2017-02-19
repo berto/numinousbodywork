@@ -2,6 +2,7 @@
 <section id="sidebar">
 
     <!-- Intro -->
+    {{ if .IsHome }}
         <section id="intro">
             {{ $pic := .Site.Params.intro.pic }}
             {{ with $pic.src }}
@@ -29,6 +30,7 @@
                 {{ end }}
             </ul>
         </section>
+    {{ end }}
 
     <!-- Posts List -->
         <section id="recent-posts">
@@ -84,45 +86,45 @@
 
     <!-- This if statement only applies if someone goes to the /categories url -->
     <!-- Otherwise this section is shown for all other links -->
-    {{ if ne ($.Scratch.Get "showCategories") false }}
-    <!-- Categories List -->
-        <section id="categories">
-            <ul class="posts">
-                <header>
-                    <h3><a href="/categories/">Categories</a></h3>
-                </header>
-
-                {{ if .Site.Params.categoriesByCount }}
-                    {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.ByCount }}
-                {{ else }}
-                    {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }}
-                {{ end }}
-
-                {{ range $key, $value := $.Scratch.Get "categories" }}
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
-                                <span style="float:right;">{{ $value.Count }}</span>
-                            </header>
-                        </article>
-                    </li>
-                {{ end }}
-            </ul>
-        </section>
-    {{ end }}
+    <!-- {{ if ne ($.Scratch.Get "showCategories") false }} -->
+    <!-- [> Categories List <] -->
+    <!--     <section id="categories"> -->
+    <!--         <ul class="posts"> -->
+    <!--             <header> -->
+    <!--                 <h3><a href="/categories/">Categories</a></h3> -->
+    <!--             </header> -->
+    <!--  -->
+    <!--             {{ if .Site.Params.categoriesByCount }} -->
+    <!--                 {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.ByCount }} -->
+    <!--             {{ else }} -->
+    <!--                 {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }} -->
+    <!--             {{ end }} -->
+    <!--  -->
+    <!--             {{ range $key, $value := $.Scratch.Get "categories" }} -->
+    <!--                 <li> -->
+    <!--                     <article> -->
+    <!--                         <header> -->
+    <!--                             <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a> -->
+    <!--                             <span style="float:right;">{{ $value.Count }}</span> -->
+    <!--                         </header> -->
+    <!--                     </article> -->
+    <!--                 </li> -->
+    <!--             {{ end }} -->
+    <!--         </ul> -->
+    <!--     </section> -->
+    <!-- {{ end }} -->
 
     <!-- About -->
-        {{ with .Site.Params.intro.about }}
-        <section class="blurb">
-            <h2>About</h2>
-            <p>{{ . }}</p>
-
-            <ul class="actions">
-                <li><a href="/about/" class="button">Learn More</a></li>
-            </ul>
-        </section>
-        {{ end }}
+        <!-- {{ with .Site.Params.intro.about }} -->
+        <!-- <section class="blurb"> -->
+        <!--     <h2>About</h2> -->
+        <!--     <p>{{ . }}</p> -->
+        <!--  -->
+        <!--     <ul class="actions"> -->
+        <!--         <li><a href="/about/" class="button">Learn More</a></li> -->
+        <!--     </ul> -->
+        <!-- </section> -->
+        <!-- {{ end }} -->
 
     <!-- Footer -->
         <section id="footer">
