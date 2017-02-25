@@ -18,4 +18,4 @@ Yet in Traditional Chinese Medicine (TCM), the heart (xin) is known as the maste
 
 *Xin can be translated as heart, intention, or center; however the full meaning goes beyond the physical heart to describe the place in our body where the spirit and mind reside.*
 
-In TCM, the heart houses the spiritual aspect of the mind, known as shen. Shen is essential because according to Chinese medical principles dating back over 2,000 years, the physical and emotional heart are not separate; they are interwoven partners in a balanced body.
+In TCM, the heart houses the spiritual aspect of the mind, known as shen. Shen is essential because according to Chinese medical principles dating back over 2,000 years, the physical and emotional heart are not separate; they are interwoven  partners in a balanced body.
