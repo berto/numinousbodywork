@@ -75,13 +75,13 @@ googleAnalytics = ""
 [[menu.main]]
     name = "Writings"
     url = "/writings"
-    identifier = "fa fa-newspaper-o"
+    identifier = "fa fa-pencil-square-o"
     weight = 2
 
 [[menu.main]]
-    name = "Readings"
-    url = "/readings"
-    identifier = "fa fa-pencil-square-o"
+    name = "Interests"
+    url = "/interests"
+    identifier = "fa fa-newspaper-o"
     weight = 3
 
 [[menu.main]]

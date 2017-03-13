@@ -23,6 +23,6 @@ git_commit
 # Push source and build repos.
 git push origin master
 
-# Deploy
-s3cmd sync public/ s3://numinousbodywork/
-
+# Deploy to s3
+s3cmd sync public/ s3://numinousbodywork.com/
+s3cmd sync public/ s3://www.numinousbodywork.com/
