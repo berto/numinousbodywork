@@ -16,7 +16,7 @@
             {{ end }}
             {{ with .Site.Params.intro }}
                 <header>
-                    <h2>{{ .header }}</h2>
+                    <h2 class="title">{{ .header }}</h2>
                     <p>{{ .paragraph | safeHTML }}</p>
                 </header>
             {{ end }}
@@ -54,7 +54,7 @@
                     <li>
                         <article>
                             <header>
-                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                <h3 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                                 {{ if .Site.Params.orderByPublishDate }}
                                     {{ $.Scratch.Set "dateType" .PublishDate }}
                                 {{ else }}
