@@ -11,9 +11,22 @@ featuredalt = ""
 
 +++
 
-VHS next level coloring book, pour-over venmo plaid mumblecore blog. Green juice meditation vegan, tofu try-hard pok pok yr viral ennui glossier freegan. Raclette mlkshk tacos, jianbing enamel pin pop-up iPhone cliche meggings cornhole hexagon pok pok 3 wolf moon kale chips plaid. Shoreditch next level pop-up, lumbersexual man braid 3 wolf moon pabst microdosing pinterest tofu wayfarers vice. Edison bulb seitan mustache hot chicken ethical, taxidermy gentrify authentic meditation XOXO brooklyn chicharrones franzen street art. Cred activated charcoal kinfolk iceland food truck literally. Dreamcatcher bitters four dollar toast, plaid vegan 8-bit flannel messenger bag flexitarian swag.
+Numinous Bodywork comes from clinical massage practice combining myofascial and
+structural techniques, orthopedic assessments and applications, movement practices,
+and osteopathic traditions. Additionally, various movement practices have informed my
+understanding how the body works.
 
-Fanny pack you probably haven't heard of them 3 wolf moon, mustache roof party humblebrag kickstarter asymmetrical pok pok YOLO pinterest sriracha echo park vape waistcoat. Aesthetic listicle poke, chambray neutra hot chicken plaid craft beer. Cardigan kinfolk small batch, tattooed roof party green juice asymmetrical bitters bushwick selfies austin raclette post-ironic. Gentrify kitsch activated charcoal cardigan direct trade, la croix distillery. 8-bit keytar tousled next level put a bird on it. IPhone intelligentsia flannel, cold-pressed occupy taxidermy beard lumbersexual semiotics. Everyday carry tumeric twee, quinoa chia prism microdosing skateboard bitters 3 wolf moon franzen VHS edison bulb truffaut pug.
+I consider my bodywork an approach rather than a modality. When treating someone, no
+one technique reigns. My studies have been influenced by Visceral Manipulation,
+CranioSacral Therapy, Shiatsu, the Trager Approach, Myofascial Release,
+Neuromuscular Therapy, Clinical Massage and Injury Treatment, Structural Bodywork,
+Swedish Massage, Abhyanga, Orthopedic Massage, and Neurofascial Release. In
+learning all of these modalities, I have found my approach takes little sips of each of them
+to inform my touch. The numinous approach blends these styles, creating a satisfying tea
+for you to take with you, relaxed and embodied.
 
-Brooklyn microdosing polaroid seitan lo-fi. Franzen flexitarian pitchfork kinfolk, williamsburg hell of cred literally sustainable tofu gluten-free. Dreamcatcher heirloom ethical, cold-pressed thundercats street art authentic quinoa selfies post-ironic put a bird on it occupy leggings sriracha. Vegan chambray organic deep v godard. Food truck chicharrones XOXO, irony raw denim mustache af polaroid kogi bushwick. Vexillologist ramps put a bird on it, cliche salvia vice raclette meh schlitz pabst poke lomo celiac af yr. Squid godard hoodie, tilde next level 8-bit gochujang edison bulb enamel pin pop-up aesthetic retro poutine man bun yr.
-
+My curiosity of movement has been strong since very young. From climbing trees to
+hitting baseballs, play has been a basis for my existence. Being highly kinesthetic, I
+continue to learn how to use my body in various sport and dance, giving my body an inner
+knowledge of how these movements function. The numinous approach incorporated
+movement practices to strengthen and contribute to optimal health.
