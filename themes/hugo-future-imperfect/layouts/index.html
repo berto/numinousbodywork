@@ -1,13 +1,111 @@
 {{ partial "header" . }}
-    {{ $.Scratch.Set "shareNav" true }}
-    {{ partial "navbar" . }}
-    <!-- Main -->
-    <div id="main">
-        {{ range first 1 (where .Site.Pages "Type" "post") }}
-            {{ .Render "content-single" }}
+{{ $.Scratch.Set "shareNav" true }}
+{{ partial "navbar" . }}
 
-            {{ partial "share-menu" . }}
+<!-- Title -->
+<div id="main-container">
+
+  <div id="main-title">
+    <section>
+      {{ $pic := .Site.Params.intro.pic }}
+      {{ with $pic.src }}
+      {{ if $pic.circle }}
+      <img src="{{ . }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+      {{ else if $pic.imperfect }}
+      <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
+      {{ else }}
+      <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+      {{ end }}
+      {{ end }}
+      {{ with .Site.Params.intro }}
+      <header>
+        <h1 class="title">{{ .header }}</h1>
+        <p>{{ .paragraph | safeHTML }}</p>
+      </header>
+      {{ end }}
+      <ul class="icons">
+        {{ if .RSSLink }}
+        <li><a href="{{ .RSSLink }}" type="application/rss+xml"
+                                     target="_blank" title="RSS" class="fa fa-rss"></a></li>
         {{ end }}
-    </div>
-    {{ partial "sidebar" . }}
+        {{ if .Site.Params.socialAppearAtTop }}
+        {{ partial "social" . }}
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+    <article class="post">
+      <header>
+        <div class="title">
+          <h1> 
+            What is Numinous Bodywork?
+          </h1>
+        </div>
+      </header>
+      <div id="content">
+        <p>
+        Numinous Bodywork is an integrative method seeking to be in touch with the wonder of
+        inherent health, aligning experience with sensation, while assessing subtle movements
+        within living tissue.
+        </p>
+        <p>
+        When working with someone, the uniqueness of the individual and their relationship to
+        their body in present moment is the foundation of this work. Considering the interplay of
+        physical, emotional, and spiritual experience lived everyday, our individual body presents
+        as various shapes throughout one day. Some of those shapes take on memory and
+        history providing a common form from which each of us derives our living and moving
+        experience.
+        </p>
+        <p>
+        Pain and discomfort may arrive when our common, learned body form presents differently
+        today; such as a recent accident, injury, or even just sleeping in a funny bed. Pain and
+        discomfort may also show up when our body moves and breathes at a distance from our
+        inherent source of health and optimal alignment of our structure, which may present as
+        chronic pain and movement dysfunction.
+        </p>
+        <p>
+        Ultimately, Numinous Bodywork attempts to bring your somatic awareness in touch with
+        your movement potential. Walking pain free and with ease, we have the ability to truly
+        relax, opening doors to healthy possibility. When we are fully embodied, we exist in touch
+        with wonder.
+        </p>
+      </div>
+    </article>
+    <article class="post">
+      <header>
+        <div class="title">
+          <h1> 
+            What happens during a session?
+          </h1>
+        </div>
+      </header>
+      <div id="content">
+        <p>
+        Numinous Bodywork integrates various approaches and concepts about the living body to
+        access the uniqueness that is you. To begin, we briefly check in around your lived
+        experience and recent movement history. From there, we assess the relationship
+        between your bones and gravity. We agree on a plan for the session incorporating your
+        goals and intention for the work.
+        </p>
+        <p>
+        At the heart of Numinous Bodywork, we listen through touch to the fluid dynamics of the
+        system. These dynamics include circulation, breath, neurofascial signaling, visceral
+        movement and the inflammatory response. Following the subtle movement of these
+        dynamics inform the direction of the work. Throughout a session, there will be contact to
+        fascia at deep and superficial layers.
+        </p>
+        <p>
+        Seeking optimal alignment provides our body with access to the inherent wisdom of our
+        bones, our structure, and our movement.
+        </p>
+      </div>
+    </article>
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+    {{ end }}
+  </div>
+  {{ partial "sidebar" . }}
+</div>
 {{ partial "footer" . }}

@@ -11,6 +11,11 @@ featuredalt = ""
 
 +++
 
+<div class="portrait">
+  <img src="/img/richard.jpg">
+  <span> Richard Cote Directo, LMT </span>
+</div>
+
 Numinous Bodywork comes from clinical massage practice combining myofascial and
 structural techniques, orthopedic assessments and applications, movement practices,
 and osteopathic traditions. Additionally, various movement practices have informed my
