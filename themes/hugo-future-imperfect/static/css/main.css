@@ -1438,7 +1438,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 body, input, select, textarea {
   color: #646464;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 400;
   line-height: 1.75;
@@ -3235,8 +3235,10 @@ body.is-menu-visible #wrapper {
 
 #main-title {
   width: 100%;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 120%;
 }
@@ -3274,16 +3276,21 @@ body.is-menu-visible #wrapper {
   margin-bottom: 2em;
 }
 
-#sidebar #author h4, #sidebar #author p {
-  margin-bottom: 0;
+#sidebar #author p {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  margin: -0.625em 0 1.7em 0;
+  height: 2em;
 }
 
-#sidebar #author p {
-  height: 1.2em;
+#sidebar #author h4, #sidebar #author p {
+  margin-bottom: 1em;
 }
 
 #sidebar header p {
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 @media screen and (max-width: 980px) {
