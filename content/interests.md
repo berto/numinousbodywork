@@ -1,5 +1,5 @@
 +++
-title = "readings"
+title = "Interests"
 featuredpath = ""
 linktitle = ""
 description = ""
@@ -11,3 +11,4 @@ categories = []
 
 +++
 
+Coming Soon

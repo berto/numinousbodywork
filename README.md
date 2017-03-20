@@ -1,3 +1,3 @@
 ## Numinous Bodywork
 
-Check it out [here](http://numinousbodywork.com)
+Check it out [here](https://numinousbodywork.com)

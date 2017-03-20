@@ -3516,3 +3516,7 @@ body.is-menu-visible #menu {
   font-size: 0.8em;
   float: right;
 }
+
+iframe {
+  width: 100%;
+}

@@ -46,55 +46,55 @@
   {{ end }}
 
   <!-- Posts List -->
-  <section id="recent-posts">
-    <ul class="posts">
-      <header>
-        <h3>Recent Posts</h3>
-      </header>
-      {{ if .Site.Params.orderByPublishDate }}
-      {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
-      {{ else }}
-      {{ $.Scratch.Set "recentPosts" .Site.Pages }}
-      {{ end }}
-
-      {{ with .Site.Params.postAmount.sidebar }}
-      {{ $.Scratch.Set "postLimit" . }}
-      {{ else }}
-      {{ $.Scratch.Set "postLimit" 5 }}
-      {{ end }}
-
-      {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
-      <li>
-        <article>
-          <header>
-            <h3 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-            {{ if .Site.Params.orderByPublishDate }}
-            {{ $.Scratch.Set "dateType" .PublishDate }}
-            {{ else }}
-            {{ $.Scratch.Set "dateType" .Date }}
-            {{ end }}
-            <time class="published" datetime=
-            '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
-              {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
-          </header>
-        </article>
-      </li>
-      {{ end }}
-
-      {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
-      <li>
-        <ul class="actions">
-          <li><a href=
-            {{ with .Site.Params.viewMorePostLink }}
-            {{ . }}
-            {{ else }}
-            "/post/"
-            {{ end }}
-            class="button">View more posts</a></li>
-        </ul>
-      </li>
-      {{ end }}
-    </ul>
-  </section>
+  <!-- <section id="recent-posts"> -->
+  <!--   <ul class="posts"> -->
+  <!--     <header> -->
+  <!--       <h3>Recent Posts</h3> -->
+  <!--     </header> -->
+  <!--     {{ if .Site.Params.orderByPublishDate }} -->
+  <!--     {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }} -->
+  <!--     {{ else }} -->
+  <!--     {{ $.Scratch.Set "recentPosts" .Site.Pages }} -->
+  <!--     {{ end }} -->
+  <!--  -->
+  <!--     {{ with .Site.Params.postAmount.sidebar }} -->
+  <!--     {{ $.Scratch.Set "postLimit" . }} -->
+  <!--     {{ else }} -->
+  <!--     {{ $.Scratch.Set "postLimit" 5 }} -->
+  <!--     {{ end }} -->
+  <!--  -->
+  <!--     {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }} -->
+  <!--     <li> -->
+  <!--       <article> -->
+  <!--         <header> -->
+  <!--           <h3 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3> -->
+  <!--           {{ if .Site.Params.orderByPublishDate }} -->
+  <!--           {{ $.Scratch.Set "dateType" .PublishDate }} -->
+  <!--           {{ else }} -->
+  <!--           {{ $.Scratch.Set "dateType" .Date }} -->
+  <!--           {{ end }} -->
+  <!--           <time class="published" datetime= -->
+  <!--           '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'> -->
+  <!--             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time> -->
+  <!--         </header> -->
+  <!--       </article> -->
+  <!--     </li> -->
+  <!--     {{ end }} -->
+  <!--  -->
+  <!--     {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }} -->
+  <!--     <li> -->
+  <!--       <ul class="actions"> -->
+  <!--         <li><a href= -->
+  <!--           {{ with .Site.Params.viewMorePostLink }} -->
+  <!--           {{ . }} -->
+  <!--           {{ else }} -->
+  <!--           "/post/" -->
+  <!--           {{ end }} -->
+  <!--           class="button">View more posts</a></li> -->
+  <!--       </ul> -->
+  <!--     </li> -->
+  <!--     {{ end }} -->
+  <!--   </ul> -->
+  <!-- </section> -->
 
 </section>
