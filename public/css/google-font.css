@@ -80,3 +80,9 @@
   font-weight: 400;
   src: url('../fonts/KaushanScript-Regular.ttf');
 }
+/* Logo Font */
+@font-face {
+  font-family: 'Logo';
+  font-style: normal;
+  src: url('../fonts/icomoon.ttf');
+}

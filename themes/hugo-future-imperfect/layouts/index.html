@@ -1,5 +1,5 @@
 {{ partial "header" . }}
-{{ $.Scratch.Set "shareNav" true }}
+{{ $.Scratch.Set "shareNav" false }}
 {{ partial "navbar" . }}
 
 <!-- Title -->
@@ -10,9 +10,8 @@
       {{ $pic := .Site.Params.intro.pic }}
       {{ with $pic.src }}
       {{ if $pic.circle }}
-      <img src="{{ . }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
-      {{ else if $pic.imperfect }}
-      <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
+      <span class="icon-logo">&#xe900;</span>      {{ else if $pic.imperfect }}
+      <a href="/" class="logo"><span class="icon-logo">&#xe900;</span></a>
       {{ else }}
       <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
       {{ end }}
@@ -24,10 +23,10 @@
       </header>
       {{ end }}
       <ul class="icons">
-        {{ if .RSSLink }}
-        <li><a href="{{ .RSSLink }}" type="application/rss+xml"
-                                     target="_blank" title="RSS" class="fa fa-rss"></a></li>
-        {{ end }}
+        <!-- {{ if .RSSLink }} -->
+        <!-- <li><a href="{{ .RSSLink }}" type="application/rss+xml" -->
+        <!--                              target="_blank" title="RSS" class="fa fa-rss"></a></li> -->
+        <!-- {{ end }} -->
         {{ if .Site.Params.socialAppearAtTop }}
         {{ partial "social" . }}
         {{ end }}

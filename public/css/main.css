@@ -56,6 +56,18 @@ body {
   box-sizing: border-box;
 }
 
+.icon-logo {
+  line-height: 1em;
+  font-size: 1000%;
+  font-family: "logo";
+  transition: color 1s;
+}
+
+.icon-logo:hover {
+  cursor: pointer;
+  color: #2ebaae !important;
+}
+
 /* Grid */
 
 .menu {
@@ -1421,7 +1433,26 @@ body {
 
 body {
   background: #f4f4f4;
+  background-image: url('../img/logo-background.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: -25vh;
+  background-position-y: -10vh;
 }
+
+/* body:before { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   width: 200%; */
+/*   height: 200%; */
+/*   top: -15%; */
+/*   left: -20%; */
+/*   z-index: -1; */
+/*   opacity: 0.03; */
+/*   background-image: url('../img/logo.svg'); */
+/*   background-repeat: no-repeat; */
+/*   background-size: 50%; */
+/* } */
 
 body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   -moz-animation: none !important;

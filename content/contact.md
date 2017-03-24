@@ -23,6 +23,8 @@ If you have any questions at all please feel free to reach out
 
 ### Address
 
+#### Boulder Healing Hub
+
 2945 Center Green Court, Suite H
 <br>
 Boulder, CO 80301
