@@ -15,13 +15,13 @@ If you have any questions at all please feel free to reach out
 
 ### Phone: 
 
-720-500-5482
+206-799-5877
 
 ### Email: 
 
 [numinousbodywork@gmail.com](mailto:numinousbodywork@mgail.com)
 
-### Address
+### Address:
 
 #### Boulder Healing Hub
 

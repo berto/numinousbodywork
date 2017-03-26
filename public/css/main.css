@@ -3557,4 +3557,5 @@ body.is-menu-visible #menu {
 
 iframe {
   width: 100%;
+  margin-bottom: 1em;
 }
