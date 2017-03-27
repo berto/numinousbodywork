@@ -1,5 +1,5 @@
 +++
-title = "forms"
+title = "Forms"
 author = ""
 featuredpath = ""
 linktitle = ""

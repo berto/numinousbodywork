@@ -6,7 +6,7 @@ date = "2017-02-18T23:23:49-07:00"
 author = ""
 featuredalt = ""
 featured = ""
-title = "contact"
+title = "Contact"
 description = ""
 
 +++
@@ -23,7 +23,7 @@ If you have any questions at all please feel free to reach out
 
 ### Address:
 
-#### Boulder Healing Hub
+<img src="/img/bhc.png" class="image bhc">
 
 2945 Center Green Court, Suite H
 <br>

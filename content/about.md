@@ -1,6 +1,6 @@
 +++
 date = "2017-02-10T11:01:44-07:00"
-featuredpath = "about"
+featuredpath = "About"
 linktitle = ""
 description = ""
 categories = []

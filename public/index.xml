@@ -10,7 +10,7 @@
     <atom:link href="http://numinousbodywork.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>contact</title>
+      <title>Contact</title>
       <link>http://numinousbodywork.com/contact/</link>
       <pubDate>Sat, 18 Feb 2017 23:23:49 -0700</pubDate>
       
@@ -29,7 +29,7 @@
 
 &lt;h3 id=&#34;address&#34;&gt;Address:&lt;/h3&gt;
 
-&lt;h4 id=&#34;boulder-healing-hub&#34;&gt;Boulder Healing Hub&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://numinousbodywork.com/img/bhc.png&#34; class=&#34;image bhc&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;2945 Center Green Court, Suite H
 &lt;br&gt;
@@ -40,7 +40,7 @@ Boulder, CO 80301&lt;/p&gt;
     </item>
     
     <item>
-      <title>forms</title>
+      <title>Forms</title>
       <link>http://numinousbodywork.com/forms/</link>
       <pubDate>Sat, 18 Feb 2017 23:23:30 -0700</pubDate>
       
