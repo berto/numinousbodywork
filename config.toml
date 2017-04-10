@@ -79,8 +79,8 @@ googleAnalytics = ""
     weight = 3
 
 [[menu.main]]
-    name = "Forms"
-    url = "/forms"
+    name = "Rates & Forms"
+    url = "/rates-and-forms"
     identifier = "fa fa-file-o"
     weight = 4
 
