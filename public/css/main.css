@@ -91,6 +91,10 @@ body {
   margin-left: 1em;
 }
 
+.highlight {
+  color: #2ebaae;
+} 
+
 .icon-logo {
   line-height: 1em;
   font-size: 1000%;
