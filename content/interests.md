@@ -11,7 +11,7 @@ categories = []
 
 +++
 
-- <a target="_blank" href="http://www.neurofascia.com">Michael Hamm - Neurofascial</a>
+- <a target="_blank" href="http://www.neurofascia.com">Michael Hamm - Neurofascia</a>
 - <a target="_blank" href="http://www.fasciacongress.org/">International Fascia Research Congress</a>
 - <a target="_blank" href="http://www.theiasi.net/">International Association of Structural Integrators</a>
 - <a target="_blank" href="http://www.heartmath.org/about-us/hmi-mission/">Heart Math</a>
