@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Numinous Bodywork</title>
-    <link>http://numinousbodywork.com/index.xml</link>
+    <link>http://numinousbodywork.com/</link>
     <description>Recent content on Numinous Bodywork</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Feb 2017 23:23:49 -0700</lastBuildDate>
-    <atom:link href="http://numinousbodywork.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://numinousbodywork.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Contact</title>
@@ -15,28 +17,11 @@
       <pubDate>Sat, 18 Feb 2017 23:23:49 -0700</pubDate>
       
       <guid>http://numinousbodywork.com/contact/</guid>
-      <description>
-
-&lt;p&gt;If you have any questions at all please feel free to reach out&lt;/p&gt;
-
-&lt;h3 id=&#34;phone&#34;&gt;Phone:&lt;/h3&gt;
-
-&lt;p&gt;206-799-5877&lt;/p&gt;
-
-&lt;h3 id=&#34;email&#34;&gt;Email:&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;mailto:numinousbodywork@mgail.com&#34;&gt;numinousbodywork@gmail.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;address&#34;&gt;Address:&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://numinousbodywork.com/img/bhc.png&#34; class=&#34;image bhc&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;2945 Center Green Court, Suite H
-&lt;br&gt;
-Boulder, CO 80301&lt;/p&gt;
-
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24440.8566225271!2d-105.26377336102061!3d40.028388679412295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bee7450bdec2f%3A0x66500b3f45c7e12d!2s2945+Center+Green+Ct+h%2C+Boulder%2C+CO+80301!5e0!3m2!1sen!2sus!4v1489967366851&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
+      <description> If you have any questions at all please feel free to reach out
+Phone: 907.419.5327
+Email: numinousbodywork@gmail.com
+Address: 2945 Center Green Court, Suite H Boulder, CO 80301
+ </description>
     </item>
     
     <item>
@@ -45,49 +30,10 @@ Boulder, CO 80301&lt;/p&gt;
       <pubDate>Sat, 18 Feb 2017 23:23:30 -0700</pubDate>
       
       <guid>http://numinousbodywork.com/rates-and-forms/</guid>
-      <description>
+      <description> Rates 
+   75 Minute Session Sliding Scale 8 Series Approach     $120 $80-120 $800    At Home Appointments are available, please contact for further information.
 
-&lt;h2 id=&#34;rates&#34;&gt;Rates&lt;/h2&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;75 Minute Session&lt;/th&gt;
-&lt;th&gt;Sliding Scale&lt;/th&gt;
-&lt;th&gt;8 Series Approach&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$120&lt;/td&gt;
-&lt;td&gt;$80-120&lt;/td&gt;
-&lt;td&gt;$800&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!-- $120 / 75 minute session --&gt;
-
-&lt;!--  --&gt;
-
-&lt;!-- $80-120 Sliding Scale  --&gt;
-
-&lt;!--  --&gt;
-
-&lt;!-- $800 for the 8 series approach --&gt;
-
-&lt;p&gt;At Home Appointments are available, please contact for further information.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;forms&#34;&gt;Forms&lt;/h2&gt;
-
-&lt;p&gt;No Available Forms
-&lt;!-- [Download Form](/forms/dummy-form.pdf) --&gt;&lt;/p&gt;
-</description>
+Forms No Available Forms </description>
     </item>
     
     <item>
@@ -96,19 +42,7 @@ Boulder, CO 80301&lt;/p&gt;
       <pubDate>Sat, 18 Feb 2017 23:23:05 -0700</pubDate>
       
       <guid>http://numinousbodywork.com/interests/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.neurofascia.com&#34;&gt;Michael Hamm - Neurofascia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.fasciacongress.org/&#34;&gt;International Fascia Research Congress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.theiasi.net/&#34;&gt;International Association of Structural Integrators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.heartmath.org/about-us/hmi-mission/&#34;&gt;Heart Math&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.brucelipton.com/&#34;&gt;Bruce Lipton- The Biology of Belief&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.youtube.com/watch?v=PNQT1VL7I2s&#34;&gt;Hugh Milne- The Heart of Listening&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.barralinstitute.com/therapies/index.php&#34;&gt;Jean-Pierre Barral- Visceral Manipulation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.omeri.com/massage/&#34;&gt;Whitney Lowe- Orthopedic Massage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.bodymoveable.com&#34;&gt;David Gorman- The Body Moveable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.geometrycode.com/sacred-geometry/&#34;&gt;Sacred Geometry&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Michael Hamm - Neurofascia International Fascia Research Congress International Association of Structural Integrators Heart Math Bruce Lipton- The Biology of Belief Hugh Milne- The Heart of Listening Jean-Pierre Barral- Visceral Manipulation Whitney Lowe- Orthopedic Massage David Gorman- The Body Moveable Sacred Geometry  </description>
     </item>
     
     <item>
@@ -117,31 +51,8 @@ Boulder, CO 80301&lt;/p&gt;
       <pubDate>Fri, 10 Feb 2017 11:01:44 -0700</pubDate>
       
       <guid>http://numinousbodywork.com/about/</guid>
-      <description>&lt;div class=&#34;portrait&#34;&gt;
-  &lt;img src=&#34;http://numinousbodywork.com/img/richard.jpg&#34;&gt;
-  &lt;span&gt; Richard Cote Directo, LMT &lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Numinous Bodywork comes from clinical massage practice combining myofascial and
-structural techniques, orthopedic assessments and applications, movement practices,
-and osteopathic traditions. Additionally, various movement practices have informed my
-understanding how the body works.&lt;/p&gt;
-
-&lt;p&gt;I consider my bodywork an approach rather than a modality. When treating someone, no
-one technique reigns. My studies have been influenced by Visceral Manipulation,
-CranioSacral Therapy, Shiatsu, the Trager Approach, Myofascial Release,
-Neuromuscular Therapy, Clinical Massage and Injury Treatment, Structural Bodywork,
-Swedish Massage, Abhyanga, Orthopedic Massage, and Neurofascial Release. In
-learning all of these modalities, I have found my approach takes little sips of each of them
-to inform my touch. The numinous approach blends these styles, creating a satisfying tea
-for you to take with you, relaxed and embodied.&lt;/p&gt;
-
-&lt;p&gt;My curiosity of movement has been strong since very young. From climbing trees to
-hitting baseballs, play has been a basis for my existence. Being highly kinesthetic, I
-continue to learn how to use my body in various sport and dance, giving my body an inner
-knowledge of how these movements function. The numinous approach incorporated
-movement practices to strengthen and contribute to optimal health.&lt;/p&gt;
-</description>
+      <description>Richard Cote Directo, LMT   Numinous Bodywork comes from clinical massage practice combining myofascial and structural techniques, orthopedic assessments and applications, movement practices, and osteopathic traditions. Additionally, various movement practices have informed my understanding how the body works.
+I consider my bodywork an approach rather than a modality. When treating someone, no one technique reigns. My studies have been influenced by Visceral Manipulation, CranioSacral Therapy, Shiatsu, the Trager Approach, Myofascial Release, Neuromuscular Therapy, Clinical Massage and Injury Treatment, Structural Bodywork, Swedish Massage, Abhyanga, Orthopedic Massage, and Neurofascial Release.</description>
     </item>
     
   </channel>
